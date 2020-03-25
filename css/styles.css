@@ -113,7 +113,51 @@
 	font-family: "Genericons", Helvetica, sans-serif;
 	cursor: pointer;
   }
-   
+/*
+===================================================
+                special visibility
+===================================================
+*/
+.active {
+	width: 100%;
+  }
+  
+  .fullRow {
+	width: 100% !important;
+  }
+  
+  .nonActive {
+	width: 0%;
+	overflow: hidden;
+	white-space: nowrap;
+  }
+  
+  .cursor {
+	position: relative;
+  }
+  
+  .cursor i {
+	position: absolute;
+	width: 1px;
+	height: 80%;
+	background-color: gray;
+	left: 5px;
+	top: 10%;
+	animation-name: blink;
+	animation-duration: 1000ms;
+	animation-iteration-count: infinite;
+	opacity: 1;
+  }
+  
+  .cursor input:focus + i {
+	display: none;
+  }
+  
+  @keyframes blink {
+	from { opacity: 1; }
+	to { opacity: 0; }
+  }
+	 
 /*
 ===================================================
                 Header
