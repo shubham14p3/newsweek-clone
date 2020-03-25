@@ -1080,7 +1080,211 @@
 	}
   }
   
-	  
+/*
+===================================================
+                Page Bottom
+===================================================
+*/
+
+.inMagazine-block {
+	margin-bottom: 40px;
+  }
+  
+  .magazine-3-features {
+	height: auto;
+  }
+  
+  .magazine-phisical .wrap {
+	position: relative;
+  }
+  
+  .magazine-phisical .wrap .img {
+	max-width: 100%;
+  }
+  
+  .magazine-phisical .wrap .category {
+	display: block;
+	font: bold 16px/33px "Roboto Condensed", sans-serif;
+	color: var(--newsred);
+	text-transform: uppercase;
+	padding: 0 10px;
+	background-color: rgba(255, 255, 255, 0.9);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+  }
+  
+  .magazine-phisical .wrap a {
+	color: inherit;
+	font: inherit;
+  }
+  
+  .magazine-phisical .mgz-features {
+	display: block;
+	background-color: #f4f5f6;
+	color: black;
+	text-align: center;
+	margin-bottom: 0;
+	font: bold 18px/18px "Roboto Condensed", sans-serif;
+	text-transform: uppercase;
+	padding: 10px 10px 10px 12px;
+  }
+  
+  .mgz-features::after {
+	content: "";
+	background: url(../svg/icon-arrow-right-black.svg) center/contain no-repeat;
+	display: inline-block;
+	width: 8px;
+	height: 14px;
+	margin-left: 10px;
+  }
+  
+  .magazine article .category {
+	font: bold 16px/26px "Roboto Condensed", sans-serif;
+	color: var(--newsred);
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 10px;
+  }
+  
+  .magazine article .category span:first-of-type {
+	padding: 0 7px;
+	background-color: #f72210;
+	color: white;
+	margin-right: 7px;
+  }
+  
+  .magazine article .category span {
+	display: inline-block;
+  }
+  
+  .magazine article .category a,
+  .magazine h5 a {
+	color: inherit;
+	font: inherit;
+  }
+  
+  .magazine h5 {
+	margin-bottom: 30px;
+	font-size: 16px;
+	line-height: 16px;
+	font-family: "Roboto Condensed", sans-serif;
+	position: relative;
+	color: black;
+	font-weight: bold;
+  }
+  
+  .magazine article .image {
+	display: block;
+	position: relative;
+	padding-bottom: 66.738%;
+	overflow: hidden;
+  }
+  
+  .magazine article .image img {
+	position: absolute;
+	width: 100%;
+	max-width: 100%;
+	object-fit: cover;
+  }
+  
+  .magazine article .fix-height {
+	position: absolute;
+	height: 100%;
+	max-width: 100%;
+	width: auto;
+	object-fit: cover;
+  }
+  
+  .magazine article .overlay {
+	position: relative;
+  }
+  
+  .magazine .overlay .image {
+	display: block;
+	position: relative;
+	padding-bottom: 66.666%;
+	overflow: hidden;
+  }
+  
+  .magazine .overlay .category {
+	display: block;
+	font: bold 16px/33px "Roboto Condensed", sans-serif;
+	color: white;
+	text-transform: uppercase;
+	padding: 0 10px;
+	background-color: var(--newsred);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	margin-top: 0;
+	margin-bottom: 0;
+  }
+  
+  .magazine .in-focus h5 {
+	margin-top: 10px;
+	text-transform: uppercase;
+  }
+  
+  @media screen and (min-width: 768px) {
+	.magazine-phisical {
+	  margin-top: 78px;
+	}
+  
+	.box-title {
+	  border-bottom: 1px solid #d9d9d9;
+	  padding-bottom: 8px;
+	}
+  
+	.magazine article .image,
+	.magazine .overlay .image {
+	  display: block;
+	  position: relative;
+	  padding-bottom: 100%;
+	  overflow: hidden;
+	  width: 100%;
+	}
+  
+	.magazine article .image img,
+	.magazine .overlay img {
+	  transform: translate(-50%, 0%);
+	  position: absolute;
+	  top: 0;
+	  left: 50%;
+	  width: auto;
+	  height: 100%;
+	  max-width: inherit;
+	}
+  
+	.magazine h5 {
+	  margin-bottom: 0;
+	  font-size: 20px;
+	  line-height: 20px;
+	}
+  
+	.magazine .full-row-bottom {
+	  padding-top: 30px;
+	}
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+	.col-sm-3,
+	.col-sm-9,
+	.col-sm-4 {
+	  position: relative;
+	  min-width: 100% !important;
+	  width: 100%;
+	  padding-right: 15px;
+	  padding-left: 15px;
+	}
+  
+	.magazine-3-features .features-title {
+	  margin-top: 30px;
+	}
+  }
+		
 
   /*
 ===================================================
