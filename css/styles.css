@@ -1549,7 +1549,7 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
 	border-bottom: 0;
 }
 
-@  media screen and (min-width: 481px) {
+@media screen and (min-width: 481px) {
 	.latest-news .head-story .image {
 		width: 258px;
 		min-width: 258px;
