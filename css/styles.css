@@ -570,4 +570,19 @@ footer {
 	margin-bottom: 12px;
 	fill: #f72210;
   }
+  footer .top-wrap {
+	align-items: flex-end;
+	justify-content: space-between;
+  }
   
+  footer .top-social-media {
+	color: #666;
+	margin-bottom: 12px;
+  }
+  
+  footer .top-social-media a,
+  footer .the-footer-links a {
+	color: inherit;
+	text-decoration: none;
+  }
+	
