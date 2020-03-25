@@ -305,6 +305,21 @@ footer ul li {
   padding: 0;
 }
 
+.magazine h5 a{
+  color: inherit;
+  font: inherit;
+}
+
+footer .top-social-media a{
+  color: inherit;
+  text-decoration: none;
+}
+
+footer .the-footer-links a{
+  color: inherit;
+  text-decoration: none;
+}
+ 
 .latest-news .head-story a {
   font: inherit;
   color: inherit;
@@ -776,7 +791,6 @@ footer .top-brand p {
   color: var(--newsblues);
 }
 
-.magazine h5 a,
 .magazine article .category a {
   color: inherit;
   font: inherit;
@@ -955,7 +969,6 @@ footer .top-brand p {
   height: auto;
 }
 
-.magazine article .image img,
 .magazine .overlay img {
   transform: translate(-50%, 0%);
   position: absolute;
@@ -1022,12 +1035,6 @@ footer .top-brand p {
   position: relative;
   padding-bottom: 66.666%;
   overflow: hidden;
-}
-
-footer .top-social-media a,
-footer .the-footer-links a {
-  color: inherit;
-  text-decoration: none;
 }
 
 .latest-news .head-story .image {
