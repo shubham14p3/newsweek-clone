@@ -52,7 +52,6 @@
 	--newswhitesmoke: #d9d9d9;
 	--newsdark: #272727;
 	--newsblues: #3581f4;
-	/* Main */
 	--featureGray: rgba(3, 3, 3, 0.4);
 }
 
@@ -60,7 +59,7 @@
   ===================================================
 				  Page Styles
   ===================================================
-  */
+*/
 
 * {
 	-webkit-font-smoothing: antialiased;
@@ -93,7 +92,7 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
   ===================================================
 				  special visibility
   ===================================================
-  */
+*/
 
 .active {
 	width: 100%;
@@ -143,7 +142,7 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
   ===================================================
 				  Header
   ===================================================
-  */
+*/
 
 .page-header .container {
 	max-width: 1310px;
@@ -172,8 +171,6 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
 
 .header-signin {
 	padding-right: 0;
-	/* overwriting boots col std padding=15px */
-	;
 }
 
 .header-signin .signin1 {
@@ -317,7 +314,9 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
 		position: absolute;
 		transition: all 0.3s ease;
 	}
-	/*  --------------------------- */
+
+/*  --------------------------- */
+
 	.header-nav {
 		position: absolute;
 		top: 50px;
@@ -466,14 +465,15 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
 		border: none;
 		outline: none;
 	}
-	/* this will disable the outline when input text is on focus */
+/* this will disable the outline when input text is on focus */
+
 }
 
 /*
   ===================================================
 				  Main
   ===================================================
-  */
+*/
 
 .main {
 	background-color: white;
@@ -485,7 +485,7 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
 	padding-left: 20px;
 	padding-right: 20px;
 	overflow: hidden;
-	/* fixing the hidden overflow with this overflow property */
+/* fixing the hidden overflow with this overflow property */
 }
 
 .col1 .col-wrap, .col2 .col-wrap, .col3 .col-wrap, .col4 .col-wrap {
@@ -562,8 +562,7 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
 	padding-top: 14px;
 	padding-bottom: 14px;
 	overflow: hidden;
-	/* Overflow:hidden avoids floating image
-	  to everflow the parent container article */
+/* Overflow:hidden avoids floating image to everflow the parent container article */
 }
 
 .more-story-article .image {
@@ -916,10 +915,7 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
 		font-size: 24px;
 		line-height: 24px;
 	}
-	/*     .container-fluid {
-		  padding-left: 30px;
-		  padding-right: 30px;
-	  } */
+	
 	.wrap-col-top .col1 {
 		width: 41%;
 	}
@@ -953,7 +949,7 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
-	/* 2 columns (col4) */
+/* 2 columns (col4) */
 	.wrap-col-top .col1 {
 		width: 45%;
 	}
@@ -969,7 +965,7 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
 }
 
 @media screen and (max-width: 767px) {
-	/* Focused on column wrap -col4- and subcolumn order */
+/* Focused on column wrap -col4- and subcolumn order */
 	.main #column-4 #col4-wrap {
 		flex-wrap: wrap;
 	}
@@ -981,7 +977,7 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
 		width: 100%;
 		order: 1;
 	}
-	/* changing markup order of col2 and col1 at this media */
+/* changing markup order of col2 and col1 at this media */
 	.wrap-col-top .col2 .order-3 {
 		order: 2;
 	}
@@ -994,7 +990,7 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
   ===================================================
 				  Page Bottom
   ===================================================
-  */
+*/
 
 .inMagazine-block {
 	margin-bottom: 40px;
@@ -1188,7 +1184,7 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
   ===================================================
 				  Newsweek Conversations
   ===================================================
-  */
+*/
 
 .newsweek-videos {
 	margin-bottom: 30px;
@@ -1418,7 +1414,7 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
   ===================================================
 				  Editor's Picks
   ===================================================
-  */
+*/
 
 .newsweeks-picks {
 	margin-bottom: 20px;
@@ -1438,7 +1434,7 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
   ===================================================
 				  Newsweek's Slide-shows
   ===================================================
-  */
+*/
 
 .slide-feature .box-title {
 	border-bottom: 1px solid #d9d9d9;
@@ -1485,7 +1481,7 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
   ===================================================
 				  HiDPI screeen's stories
   ===================================================
-  */
+*/
 
 .HiDPI .content {
 	padding-left: 1px;
@@ -1575,7 +1571,7 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
   ===================================================
 				  subscribe - block
   ===================================================
-  */
+*/
 
 .subscribe-block {
 	padding-top: 40px;
@@ -1709,7 +1705,7 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
   ===================================================
 				  newsletter
   ===================================================
-  */
+*/
 
 .c2-info {
 	text-align: center;
@@ -1782,7 +1778,7 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
   ===================================================
 				  the-footer
   ===================================================
-  */
+*/
 
 footer {
 	border-top: 2px solid #f4f5f6;
