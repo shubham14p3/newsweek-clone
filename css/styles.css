@@ -305,6 +305,12 @@ footer ul li {
   padding: 0;
 }
 
+.magazine h5 a,
+.magazine article .category a {
+  color: inherit;
+  font: inherit;
+}
+
 .latest-news .head-story a {
   font: inherit;
   color: inherit;
@@ -776,12 +782,6 @@ footer .top-brand p {
   color: var(--newsblues);
 }
 
-.magazine h5 a,
-.magazine article .category a {
-  color: inherit;
-  font: inherit;
-}
-
 .culture-item .info .title-item a {
   color: inherit;
   text-decoration: none;
@@ -901,6 +901,12 @@ footer .top-brand p {
   padding-bottom: 30px;
 }
 
+footer .top-social-media a,
+footer .the-footer-links a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .latest-news .head-story {
   font: bold 17px/21px "Roboto Condensed", sans-serif;
   color: black;
@@ -955,8 +961,8 @@ footer .top-brand p {
   height: auto;
 }
 
-.magazine article .image img,
-.magazine .overlay img {
+.magazine .overlay img,
+.magazine article .image img {
   transform: translate(-50%, 0%);
   position: absolute;
   top: 0;
@@ -1022,12 +1028,6 @@ footer .top-brand p {
   position: relative;
   padding-bottom: 66.666%;
   overflow: hidden;
-}
-
-footer .top-social-media a,
-footer .the-footer-links a {
-  color: inherit;
-  text-decoration: none;
 }
 
 .latest-news .head-story .image {
