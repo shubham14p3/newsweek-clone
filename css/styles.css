@@ -732,49 +732,49 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
 }
 
 #special-1 {
-  background: url(../img/sponsored-item1.jpg);
+  background: url(../images/sponsored-item1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #special-2 {
-  background: url(../img/sponsored-item2.jpg);
+  background: url(../images/sponsored-item2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #special-3 {
-  background: url(../img/sponsored-item3.png);
+  background: url(../images/sponsored-item3.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 55% 55%;
 }
 
 #special-4 {
-  background: url(../img/sponsored-item4.png);
+  background: url(../images/sponsored-item4.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #special-sub-1 {
-  background: url(../img/sponsored-item-sub1.png);
+  background: url(../images/sponsored-item-sub1.png);
   background-size: cover;
 }
 
 #special-sub-2 {
-  background: url(../img/sponsored-item-sub2.jpg);
+  background: url(../images/sponsored-item-sub2.jpg);
   background-size: cover;
 }
 
 #special-sub-3 {
-  background: url(../img/sponsored-item-sub3.jpg);
+  background: url(../images/sponsored-item-sub3.jpg);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 
 #special-sub-4 {
-  background: url(../img/sponsored-item-sub4.png);
+  background: url(../images/sponsored-item-sub4.png);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -863,10 +863,18 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
 
 .box-title .icon-news {
   display: block;
+  font: bold 26px/26px "Roboto Condensed", sans-serif;
+  color: white;
+  text-align: center;
+  top:50%;
   width: 29px;
   height: 28px;
   background: url(../svg/singup-logo.svg) center/contain no-repeat #f72210;
   margin-right: 10px;
+}
+
+.features-title1{
+  margin-bottom: -60px
 }
 
 .gray-button {
@@ -1204,20 +1212,6 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .col-sm-3, .col-sm-9, .col-sm-4 {
-    position: relative;
-    min-width: 100% !important;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-
-  .magazine-3-features .features-title {
-    margin-top: 30px;
-  }
-}
-
 /*
   ===================================================
 				  Newsweek Conversations
@@ -1302,14 +1296,6 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
   color: #777;
 }
 
-.key-video {
-  width: 100%;
-}
-
-.video-options {
-  width: 100%;
-}
-
 .key-video .image {
   position: relative;
   padding: 0;
@@ -1354,7 +1340,7 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
   }
 
   .key-video .image a {
-    background-image: url(../img/newsweek-conversations-1.jpg);
+    background-image: url(../images/newsweek-conversations-1.jpg);
   }
 
   .video-options {
@@ -1426,15 +1412,15 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
   }
 
   #option-1 {
-    background-image: url(../img/newsweek-conversations-2.jpg);
+    background-image: url(../images/newsweek-conversations-2.jpg);
   }
 
   #option-2 {
-    background-image: url(../img/newsweek-conversations-3.jpg);
+    background-image: url(../images/newsweek-conversations-3.jpg);
   }
 
   #option-3 {
-    background-image: url(../img/newsweek-conversations-4.jpg);
+    background-image: url(../images/newsweek-conversations-4.jpg);
   }
 
   .video-options .play-icon-sm {
@@ -1521,7 +1507,7 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
   line-height: 58px;
   text-indent: 5px;
   text-align: center;
-  background: url(/assets/img/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  background: url(/assets/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
   color: #e9212e;
   z-index: 2;
 }
@@ -1795,7 +1781,7 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
 
   .c2-subscribe-wrap .newsletter-image {
     height: 160px;
-    background: url(../img/newsletter.png) center center / cover no-repeat;
+    background: url(../images/newsletter.png) center center / cover no-repeat;
     z-index: 2;
   }
 }
@@ -1817,7 +1803,7 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
 
   .newsletter-image {
     max-width: 191px;
-    background: url(../img/newsletter.png) center center / cover no-repeat;
+    background: url(../images/newsletter.png) center center / cover no-repeat;
     width: 48%;
   }
 
