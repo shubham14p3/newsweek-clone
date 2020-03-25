@@ -585,4 +585,11 @@ footer {
 	color: inherit;
 	text-decoration: none;
   }
-	
+  footer ul {
+	list-style: none outside none;
+  }
+  
+  footer ul li {
+	margin-left: 10px;
+  }
+	  
