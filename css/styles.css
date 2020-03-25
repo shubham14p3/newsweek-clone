@@ -1534,7 +1534,26 @@
 	  order: 1;
 	}
   }
-		  
+/*
+===================================================
+                Editor's Picks
+===================================================
+*/
+
+.newsweeks-picks {
+	margin-bottom: 20px;
+  }
+  
+  .picks-features .box-title {
+	border-bottom: 1px solid #d9d9d9;
+	padding-bottom: 8px;
+  }
+  
+  .picks-features .col-wrap {
+	padding-left: 0;
+	padding-right: 0;
+  }
+			
 
   /*
 ===================================================
