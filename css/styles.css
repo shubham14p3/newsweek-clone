@@ -2078,3 +2078,17 @@
 	}
   }
   
+/********************************
+* Sticky colums
+*********************************/
+@media (min-height: 60px) {
+	.tp-story {
+	  position: sticky;
+	  top: 0;
+	}
+  
+	.r-sidebar {
+	  position: sticky;
+	  top: 0;
+	}
+  }
