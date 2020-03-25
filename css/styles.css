@@ -593,3 +593,94 @@ footer {
 	margin-left: 10px;
   }
 	  
+  footer .top-social-media li:first-child,
+  footer .mid-editions li:first-child {
+	margin-left: 0;
+  }
+  
+  footer .genericon {
+	line-height: 24px;
+  }
+  
+  .facebook::before {
+	content: "\f203";
+  }
+  
+  .twitter::before {
+	content: "\f202";
+  }
+  
+  footer a.twitter {
+	font-size: 25px;
+  }
+  
+  .instagram::before {
+	content: "\f215";
+  }
+  
+  .tumbler::before {
+	content: "\f214";
+  }
+  
+  footer a.tumbler {
+	font-size: 21px;
+  }
+  
+  .linkedin::before {
+	content: "\f207";
+  }
+  
+  .the-footer-links {
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	border-top: 1px solid #d9d9d9;
+	padding-top: 6px;
+	font-size: 14px;
+	line-height: 15px;
+	color: #666;
+  }
+  
+  .mid-editions label {
+	margin-top: 6px;
+	margin-right: 15px;
+  }
+  
+  .the-footer-links li {
+	display: inline-block;
+	padding-right: 20px;
+	margin: 6px 0;
+	cursor: pointer;
+  }
+  
+  @media screen and (max-width: 767px) {
+	.top-social-media {
+	  width: 100%;
+	}
+  
+	.top-brand p {
+	  width: 100%;
+	}
+  
+	.the-footer-links .mid-editions {
+	  flex-wrap: nowrap;
+	}
+  
+	.the-footer-links .mid-editions ul {
+	  flex-wrap: wrap;
+	}
+  }
+  
+  @media screen and (min-width: 768px) {
+	.the-footer-links li {
+	  border-right: 1px solid #d9d9d9;
+	  padding-right: 10px;
+	  margin-right: 10px;
+	}
+  
+	.mid-editions li:last-of-type {
+	  border-right: 0;
+	  padding-right: 0;
+	  margin-right: 0;
+	}
+  }
