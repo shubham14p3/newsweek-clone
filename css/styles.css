@@ -1599,7 +1599,99 @@
 	  line-height: 22px;
 	}
   }
-			  
+
+  /*
+===================================================
+                HiDPI screeen's stories
+===================================================
+*/
+
+.HiDPI .content {
+	padding-left: 1px;
+	padding-right: 1px;
+	margin: 0;
+  }
+  
+  .HiDPI .head-story .title-HiDPI {
+	border-top: 1px solid #d9d9d9;
+	color: #f72210;
+	padding-top: 25px;
+	font: bold 22px/22px "Roboto Condensed", sans-serif;
+	text-transform: none;
+	padding-bottom: 11px;
+  }
+  
+  .HiDPI .title-HiDPI a {
+	color: inherit;
+	text-decoration: none;
+	font-size: 22px;
+  }
+  
+  .HiDPI .head-story article h4 {
+	margin-top: 10px;
+	margin-bottom: 25px;
+	font-size: 18px;
+	line-height: 18px;
+  }
+  
+  .HiDPI .head-story article {
+	padding-bottom: 0;
+  }
+  
+  /* HiDPI latest news Subsection */
+  
+  .latest-news .head-story {
+	font: bold 17px/21px "Roboto Condensed", sans-serif;
+	color: black;
+	margin-bottom: 30px;
+  }
+  
+  .latest-news .head-story a {
+	font: inherit;
+	color: inherit;
+  }
+  
+  .latest-news .head-story .image {
+	width: 138px;
+	min-width: 135px;
+	margin-right: 15px;
+  }
+  
+  .latest-news ul.hidpi-subsection li {
+	border-bottom: 1px solid #ddd;
+	border-top: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+  }
+  
+  .latest-news ul.hidpi-subsection li:last-child {
+	border-bottom: 0;
+  }
+  
+  @media screen and (min-width: 481px) {
+	.latest-news .head-story .image {
+	  width: 258px;
+	  min-width: 258px;
+	}
+  }
+  
+  @media screen and (min-width: 768px) {
+	.latest-news .head-story .image {
+	  width: 138px;
+	  min-width: 135px;
+	  margin-right: 15px;
+	}
+  
+	.latest-news ul.hidpi-subsection li:first-child {
+	  padding-top: 0;
+	}
+  
+	.HiDPI .head-story article h4 {
+	  font-size: 22px;
+	  line-height: 22px;
+	}
+  }
+  
 
   /*
 ===================================================
