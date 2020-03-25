@@ -241,6 +241,13 @@ figure {
   margin-right: auto;
 }
 
+.head-story article a {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 10px;
+  position: relative;
+  color: black;
+}
+
 .page-header .header-nav {
   display: relative;
   background-color: white;
@@ -266,10 +273,35 @@ figure {
   list-style-type: none;
 }
 
+.the-footer-links li {
+  display: inline-block;
+  padding-right: 20px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
 .header-nav ul li {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.magazine article .category a,
+.magazine h5 a {
+  color: inherit;
+  font: inherit;
+}
+
+.newsweek-videos a {
+  color: inherit;
+  height: auto;
+  width: auto;
+}
+
+footer .top-social-media a,
+footer .the-footer-links a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .header-nav .news-navbar a {
@@ -600,13 +632,6 @@ figure {
   margin-bottom: 10px;
 }
 
-.head-story article a {
-  font-family: "Roboto Condensed", sans-serif;
-  margin-bottom: 10px;
-  position: relative;
-  color: black;
-}
-
 .more-story-content .more-story-article {
   position: relative;
   border-top: 1px solid #ddd;
@@ -692,6 +717,24 @@ figure {
   margin-bottom: 10px;
 }
 
+.culture-item .tags-item a {
+  display: inline-block;
+  background-color: #c2d4d7;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  color: inherit;
+  text-decoration: none;
+  width: auto;
+}
+
+
+.magazine-phisical .wrap a {
+  color: inherit;
+  font: inherit;
+}
+
 .culture-item .info .title-item a {
   color: inherit;
   text-decoration: none;
@@ -706,18 +749,6 @@ figure {
 .culture-item .info .tags-item {
   font: 300 13px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
   color: var(--newsdark);
-}
-
-.culture-item .tags-item a {
-  display: inline-block;
-  background-color: #c2d4d7;
-  padding-left: 6px;
-  padding-right: 6px;
-  margin-right: 6px;
-  margin-bottom: 6px;
-  color: inherit;
-  text-decoration: none;
-  width: auto;
 }
 
 .header-3 {
@@ -735,6 +766,12 @@ figure {
   color: black;
   margin-top: 16px;
   list-style: none outside none;
+}
+
+.head-story ul li {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .featured-stories .related li {
@@ -812,16 +849,15 @@ figure {
   background-repeat: no-repeat;
 }
 
+/* sponsored items sub-category */
+.special-item-sub .head-story {
+  padding-bottom: 30px;
+}
+
 #news-opinion .head-story {
   font: bold 17px/21px "Roboto Condensed", sans-serif;
   color: black;
   margin-bottom: 30px;
-}
-
-.head-story ul li {
-  border-top: 1px solid #ddd;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .head-story ul li:first-child {
@@ -836,6 +872,28 @@ figure {
   min-height: 63px;
   margin-right: 15px;
   position: relative;
+}
+
+.magazine article .image img {
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.video-options .image {
+  position: relative;
+  vertical-align: middle;
+  width: 173px;
+  height: auto;
+  padding: 0;
+}
+
+.video-options .image img {
+  max-width: 173px;
+  max-height: 104px;
+  width: 100%;
+  height: auto;
 }
 
 #news-opinion .head-story img {
@@ -867,15 +925,25 @@ figure {
   color: inherit;
 }
 
+
+.magazine article .image {
+  display: block;
+  position: relative;
+  padding-bottom: 66.738%;
+  overflow: hidden;
+}
+
+.magazine .overlay .image {
+  display: block;
+  position: relative;
+  padding-bottom: 66.666%;
+  overflow: hidden;
+}
+
 #latest-news .head-story .image {
   width: 135px;
   min-width: 135px;
   margin-right: 15px;
-}
-
-/* sponsored items sub-category */
-.special-item-sub .head-story {
-  padding-bottom: 30px;
 }
 
 /* ---------singup box  ------------- */
@@ -1077,6 +1145,14 @@ figure {
   max-width: 100%;
 }
 
+.magazine article .category {
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+  color: var(--newsred);
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .magazine-phisical .wrap .category {
   display: block;
   font: bold 16px/33px "Roboto Condensed", sans-serif;
@@ -1088,11 +1164,6 @@ figure {
   bottom: 0;
   left: 0;
   z-index: 1;
-}
-
-.magazine-phisical .wrap a {
-  color: inherit;
-  font: inherit;
 }
 
 .magazine-phisical .mgz-features {
@@ -1115,12 +1186,8 @@ figure {
   margin-left: 10px;
 }
 
-.magazine article .category {
-  font: bold 16px/26px "Roboto Condensed", sans-serif;
-  color: var(--newsred);
-  text-transform: uppercase;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.magazine article .category span {
+  display: inline-block;
 }
 
 .magazine article .category span:first-of-type {
@@ -1128,16 +1195,6 @@ figure {
   background-color: #f72210;
   color: white;
   margin-right: 7px;
-}
-
-.magazine article .category span {
-  display: inline-block;
-}
-
-.magazine article .category a,
-.magazine h5 a {
-  color: inherit;
-  font: inherit;
 }
 
 .magazine h5 {
@@ -1150,20 +1207,6 @@ figure {
   font-weight: bold;
 }
 
-.magazine article .image {
-  display: block;
-  position: relative;
-  padding-bottom: 66.738%;
-  overflow: hidden;
-}
-
-.magazine article .image img {
-  position: absolute;
-  width: 100%;
-  max-width: 100%;
-  object-fit: cover;
-}
-
 .magazine article .fix-height {
   position: absolute;
   height: 100%;
@@ -1174,13 +1217,6 @@ figure {
 
 .magazine article .overlay {
   position: relative;
-}
-
-.magazine .overlay .image {
-  display: block;
-  position: relative;
-  padding-bottom: 66.666%;
-  overflow: hidden;
 }
 
 .magazine .overlay .category {
@@ -1344,27 +1380,6 @@ figure {
 
 .newsweek-videos .info {
   padding: 20px;
-}
-
-.newsweek-videos a {
-  color: inherit;
-  height: auto;
-  width: auto;
-}
-
-.video-options .image {
-  position: relative;
-  vertical-align: middle;
-  width: 173px;
-  height: auto;
-  padding: 0;
-}
-
-.video-options .image img {
-  max-width: 173px;
-  max-height: 104px;
-  width: 100%;
-  height: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -1913,12 +1928,6 @@ footer .top-social-media {
   margin-bottom: 12px;
 }
 
-footer .top-social-media a,
-footer .the-footer-links a {
-  color: inherit;
-  text-decoration: none;
-}
-
 footer ul {
   list-style: none outside none;
 }
@@ -1978,13 +1987,6 @@ footer a.tumbler {
 .mid-editions label {
   margin-top: 6px;
   margin-right: 15px;
-}
-
-.the-footer-links li {
-  display: inline-block;
-  padding-right: 20px;
-  margin: 6px 0;
-  cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
