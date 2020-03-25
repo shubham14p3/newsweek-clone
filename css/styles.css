@@ -1,4 +1,3 @@
-
 /*
 ===================================================
                 font-faces
@@ -37,13 +36,13 @@
 	font-style: normal;
   }
   
-/*
-===================================================
-                Variables
-===================================================
-*/
-
-:root {
+  /*
+  ===================================================
+				  Variables
+  ===================================================
+  */
+  
+  :root {
 	/* header */
 	--newsred: #f72210;
 	--newspink: #fb9a94;
@@ -57,13 +56,13 @@
 	--featureGray: rgba(3, 3, 3, 0.4);
   }
   
-/*
-===================================================
-                Page Styles
-===================================================
-*/
-
-* {
+  /*
+  ===================================================
+				  Page Styles
+  ===================================================
+  */
+  
+  * {
 	-webkit-font-smoothing: antialiased;
   }
   
@@ -113,12 +112,13 @@
 	font-family: "Genericons", Helvetica, sans-serif;
 	cursor: pointer;
   }
-/*
-===================================================
-                special visibility
-===================================================
-*/
-.active {
+  
+  /*
+  ===================================================
+				  special visibility
+  ===================================================
+  */
+  .active {
 	width: 100%;
   }
   
@@ -157,14 +157,14 @@
 	from { opacity: 1; }
 	to { opacity: 0; }
   }
-	 
-/*
-===================================================
-                Header
-===================================================
-*/
-
-.page-header .container {
+  
+  /*
+  ===================================================
+				  Header
+  ===================================================
+  */
+  
+  .page-header .container {
 	max-width: 1310px;
 	padding: 0;
 	position: relative;
@@ -280,7 +280,7 @@
 	text-decoration: none;
 	color: black;
   }
-
+  
   @media screen and (min-width: 481px) {
 	.header-top .header-signin {
 	  padding-right: 24px;
@@ -537,13 +537,13 @@
 	/* this will disable the outline when input text is on focus */
   }
   
-/*
-===================================================
-                Main
-===================================================
-*/
-
-.main {
+  /*
+  ===================================================
+				  Main
+  ===================================================
+  */
+  
+  .main {
 	background-color: white;
 	padding-top: 20px;
   }
@@ -763,9 +763,10 @@
 	border-top: 1px solid #d9d9d9;
 	padding: 10px 0;
   }
+  
   /* ----------- Special Items subsection */
-
-.special-item-right .article-wrap {
+  
+  .special-item-right .article-wrap {
 	margin-bottom: 0;
   }
   
@@ -876,9 +877,10 @@
 	text-transform: uppercase;
 	margin-top: 4px;
   }
-/* latest news Subsection */
-
-#latest-news .head-story {
+  
+  /* latest news Subsection */
+  
+  #latest-news .head-story {
 	font: bold 17px/21px "Roboto Condensed", sans-serif;
 	color: black;
 	margin-bottom: 30px;
@@ -959,6 +961,7 @@
 	color: #333;
 	font: bold 15px/15px "Roboto Condensed", sans-serif;
   }
+  
   @media screen and (max-width: 991px) and (min-width: 668px) {
 	.col3 .special-item-right {
 	  max-width: 330px;
@@ -1080,13 +1083,13 @@
 	}
   }
   
-/*
-===================================================
-                Page Bottom
-===================================================
-*/
-
-.inMagazine-block {
+  /*
+  ===================================================
+				  Page Bottom
+  ===================================================
+  */
+  
+  .inMagazine-block {
 	margin-bottom: 40px;
   }
   
@@ -1284,12 +1287,13 @@
 	  margin-top: 30px;
 	}
   }
-/*
-===================================================
-                Newsweek Conversations
-===================================================
-*/
-.newsweek-videos {
+  
+  /*
+  ===================================================
+				  Newsweek Conversations
+  ===================================================
+  */
+  .newsweek-videos {
 	margin-bottom: 30px;
 	display: block;
   }
@@ -1534,13 +1538,14 @@
 	  order: 1;
 	}
   }
-/*
-===================================================
-                Editor's Picks
-===================================================
-*/
-
-.newsweeks-picks {
+  
+  /*
+  ===================================================
+				  Editor's Picks
+  ===================================================
+  */
+  
+  .newsweeks-picks {
 	margin-bottom: 20px;
   }
   
@@ -1553,13 +1558,14 @@
 	padding-left: 0;
 	padding-right: 0;
   }
-/*
-===================================================
-                Newsweek's Slide-shows
-===================================================
-*/
-
-.slide-feature .box-title {
+  
+  /*
+  ===================================================
+				  Newsweek's Slide-shows
+  ===================================================
+  */
+  
+  .slide-feature .box-title {
 	border-bottom: 1px solid #d9d9d9;
 	padding-bottom: 8px;
   }
@@ -1599,14 +1605,14 @@
 	  line-height: 22px;
 	}
   }
-
+  
   /*
-===================================================
-                HiDPI screeen's stories
-===================================================
-*/
-
-.HiDPI .content {
+  ===================================================
+				  HiDPI screeen's stories
+  ===================================================
+  */
+  
+  .HiDPI .content {
 	padding-left: 1px;
 	padding-right: 1px;
 	margin: 0;
@@ -1691,14 +1697,14 @@
 	  line-height: 22px;
 	}
   }
-
+  
   /*
-===================================================
-                subscribe - block
-===================================================
-*/
-
-.subscribe-block {
+  ===================================================
+				  subscribe - block
+  ===================================================
+  */
+  
+  .subscribe-block {
 	padding-top: 40px;
 	position: relative;
 	margin-bottom: 40px;
@@ -1838,13 +1844,14 @@
 	  right: -30px;
 	}
   }
-/*
-===================================================
-                newsletter
-===================================================
-*/
-
-.c2-info {
+  
+  /*
+  ===================================================
+				  newsletter
+  ===================================================
+  */
+  
+  .c2-info {
 	text-align: center;
   }
   
@@ -1922,15 +1929,13 @@
 	}
   }
   
-	
-
   /*
-===================================================
-                the-footer
-===================================================
-*/
-
-footer {
+  ===================================================
+				  the-footer
+  ===================================================
+  */
+  
+  footer {
 	border-top: 2px solid #f4f5f6;
 	background-color: white;
 	padding: 30px 15px;
@@ -1956,6 +1961,7 @@ footer {
 	margin-bottom: 12px;
 	fill: #f72210;
   }
+  
   footer .top-wrap {
 	align-items: flex-end;
 	justify-content: space-between;
@@ -1971,6 +1977,7 @@ footer {
 	color: inherit;
 	text-decoration: none;
   }
+  
   footer ul {
 	list-style: none outside none;
   }
@@ -1978,7 +1985,7 @@ footer {
   footer ul li {
 	margin-left: 10px;
   }
-	  
+  
   footer .top-social-media li:first-child,
   footer .mid-editions li:first-child {
 	margin-left: 0;
@@ -2070,3 +2077,4 @@ footer {
 	  margin-right: 0;
 	}
   }
+  
