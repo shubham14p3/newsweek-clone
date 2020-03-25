@@ -1,4 +1,43 @@
+
 /*
+===================================================
+                font-faces
+===================================================
+*/
+@font-face {
+	font-family: 'Roboto Condensed';
+	font-display: swap;
+	src: local('roboto_condensedbold'), url(../fonts/robotocondensed-bold-webfont.woff) format('woff2'), url(../fonts/robotocondensed-bold-webfont.woff) format('woff');
+	font-weight: 700;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Roboto Condensed';
+	font-display: swap;
+	src: local('roboto_condensedregular'), url(../fonts/robotocondensed-regular-webfont.woff2) format('woff2'), url(../fonts/robotocondensed-regular-webfont.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Roboto Condensed';
+	font-display: swap;
+	src: local('roboto_condensedlight'), url(../fonts/robotocondensed-light-webfont.woff2) format('woff2'), url(../fonts/robotocondensed-light-webfont.woff2) format('woff');
+	font-weight: 300;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Genericons';
+	font-display: swap;
+	src: local('Genericons'), url(../fonts/Genericons.eot);
+	src: url(../fonts/Genericons.eot?#iefix) format("embedded-opentype"), url(../fonts/Genericons.woff) format("woff"), url(../fonts/Genericons.ttf) format("truetype"), url(../fonts/Genericons.svg#Genericons) format("svg");
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  /*
 ===================================================
                 Header
 ===================================================
@@ -119,5 +158,261 @@
 	display: block;
 	text-decoration: none;
 	color: black;
+  }
+
+  @media screen and (min-width: 481px) {
+	.header-top .header-signin {
+	  padding-right: 24px;
+	}
+  
+	.header-signin .signin1 {
+	  font-size: 18px;
+	  padding-left: 12px;
+	  padding-right: 12px;
+	}
+  
+	.header-signin .subscribe1 {
+	  font-size: 18px;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	}
+  
+	.header-signin .subscribe1 svg {
+	  fill: var(--newsred);
+	  display: inline-block;
+	  width: 8px;
+	  height: 14px;
+	  margin-left: 10px;
+	}
+  
+	.header-middle .header-burger {
+	  width: 74px;
+	}
+  
+	.header-middle .header-burger > span,
+	.header-middle .header-burger::before,
+	.header-middle .header-burger::after {
+	  width: 30px;
+	}
+  }
+  
+  @media screen and (max-width: 991px) {
+	.page-header .header-middle {
+	  padding: 15px;
+	}
+  
+	.header-top .header-date {
+	  display: none;
+	}
+  
+	.page-header .header-top {
+	  position: relative;
+	  z-index: 2;
+	  padding: 0;
+	  height: 0;
+	}
+  
+	.header-top .header-signin {
+	  position: relative;
+	  top: 40px;
+	  right: 50px;
+	}
+  
+	/* --- Burger animate class  */
+  
+	/*    You cannot change a pseudo element's property but */
+  
+	/*     you coud add a new class and introduce the change with  */
+  
+	/*     the new class - animate-burger class added */
+  
+	/*     managing the burger to get crossed */
+  
+	.animate-burger::before {
+	  transform: rotate(-135deg);
+	}
+  
+	.animate-burger::after {
+	  transform: rotate(135deg);
+	}
+  
+	.animate-burger::before,
+	.animate-burger::after {
+	  position: absolute;
+	  transition: all 0.3s ease;
+	}
+  
+	/*  --------------------------- */
+  
+	.header-nav {
+	  position: absolute;
+	  top: 50px;
+	  right: 0;
+	  width: 220px;
+	  height: 100vh;
+	  padding: 10px 0;
+	  box-shadow: rgba(0, 0, 0, 0.1) -2px 0 2px;
+	  overflow-y: scroll;
+	}
+  
+	.header-nav .header-nav-search-form {
+	  position: relative;
+	  padding-right: 20px;
+	  margin-left: 15px;
+	  margin-right: 10px;
+	}
+  
+	.header-nav-search-inline label {
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  background: url(../svg/icon-search-glass.svg) center/contain no-repeat white;
+	  width: 20px;
+	  height: 20px;
+	  clip: auto;
+	  margin-bottom: 0;
+	}
+  
+	.header-nav-search-inline input {
+	  vertical-align: middle;
+	  font-size: 16px;
+	  height: 20px;
+	  width: 175px;
+	  color: rgba(0, 0, 0, 0.55);
+	  background-color: white;
+	  padding: 0;
+	  margin: 0;
+	  border: 0;
+	}
+  
+	.header-nav .news-navbar {
+	  padding-top: 10px;
+	  padding-left: 0;
+	}
+  
+	.header-nav .news-navbar li a {
+	  position: relative;
+	  padding: 5px 15px;
+	}
+  
+	.header-nav .news-navbar li a::after {
+	  content: "";
+	  display: inline-block;
+	  vertical-align: middle;
+	  width: 8px;
+	  height: 14px;
+	  background-color: rgba(0, 0, 0, 0.55);
+	  -webkit-mask-image: url(../svg/icon-arrow-right.svg);
+	  margin-left: 10px;
+	  position: absolute;
+	  right: 15px;
+	  top: 12px;
+	}
+  }
+  
+  @media screen and (min-width: 992px) {
+	.header-top .header-signin {
+	  padding-right: 0;
+	}
+  
+	.page-header .header-middle {
+	  background-color: var(--newsred);
+	  padding: 10px 15px 10px 15px;
+	  position: absolute;
+	  transform: translate(-50%, 0);
+	  top: 0%;
+	  left: 50%;
+	}
+  
+	.header-middle .logo svg {
+	  fill: white;
+	  width: 396px;
+	  height: 60px;
+	  margin: 10px auto 0;
+	  display: block;
+	}
+  
+	.header-top .header-date {
+	  display: block;
+	  font: 16px/34px "Roboto Condensed", sans-serif;
+	  color: white;
+	}
+  
+	.header-middle .header-burger {
+	  display: none;
+	}
+  
+	.page-header .header-nav {
+	  visibility: visible;
+	  position: relative;
+	  padding-right: 100px;
+	}
+  
+	.page-header .header-nav::before {
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  content: "";
+	  display: block;
+	  width: 78px;
+	  background-color: var(--newsred);
+	  border-left: 12px solid white;
+	  border-top: 13px solid var(--newsred);
+	}
+  
+	.header-nav .flex-col {
+	  width: 100%;
+	  display: flex;
+	  flex-direction: row-reverse;
+	  justify-content: space-between;
+	}
+  
+	.header-nav .header-nav-search-inline {
+	  flex-direction: row-reverse;
+	  justify-content: flex-end;
+	  align-items: center;
+	}
+  
+	.header-nav .header-nav-search-inline input {
+	  width: 60px;
+	}
+  
+	.header-nav-search-inline label {
+	  background: url(../svg/icon-search-glass.svg) center/contain no-repeat white;
+	  width: 20px;
+	  height: 20px;
+	  clip: auto;
+	  margin-bottom: 0;
+	}
+  
+	.header-nav .news-navbar {
+	  display: flex;
+	  justify-content: center;
+	  align-content: space-between;
+	  flex-grow: 1;
+	  align-items: center;
+	}
+  
+	.header-nav .news-navbar li {
+	  display: inline-block;
+	  flex-grow: 1;
+	  text-align: center;
+	  list-style: none;
+	  border-left-width: 1px;
+	  border-left-style: solid;
+	  border-left-color: var(--newswhitesmoke);
+	}
+  
+	.page-header .header-nav ul li:first-child {
+	  border-left-width: 0;
+	  padding-left: 10px;
+	}
+  
+	#search-input {
+	  border: none;
+	  outline: none;
+	}
+  
+	/* this will disable the outline when input text is on focus */
   }
   
