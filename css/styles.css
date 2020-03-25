@@ -537,6 +537,233 @@
 	/* this will disable the outline when input text is on focus */
   }
   
+/*
+===================================================
+                Main
+===================================================
+*/
+
+.main {
+	background-color: white;
+	padding-top: 20px;
+  }
+  
+  .container-fluid {
+	max-width: 1310px;
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow: hidden;
+  
+	/* fixing the hidden overflow with this overflow property */
+  }
+  
+  .col1 .col-wrap,
+  .col2 .col-wrap,
+  .col3 .col-wrap,
+  .col4 .col-wrap {
+	padding-left: 15px;
+	padding-right: 15px;
+  }
+  
+  .head-story p {
+	font: bold 16px/16px "Roboto Condensed", sans-serif;
+	text-transform: uppercase;
+	padding-bottom: 11px;
+	color: var(--featureGray);
+  }
+  
+  .head-story-red p {
+	font: bold 16px/16px "Roboto Condensed", sans-serif;
+	text-transform: uppercase;
+	padding-bottom: 11px;
+	color: var(--newsred);
+  }
+  
+  .head-story article {
+	padding-bottom: 20px;
+  }
+  
+  .head-story .article-wrap {
+	position: relative;
+	min-height: 33px;
+	margin-bottom: 10px;
+  }
+  
+  .head-story .category {
+	display: block;
+	padding: 8px 15px 9px;
+	background-color: rgba(255, 255, 255, 0.9);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+  }
+  
+  .head-story .category a {
+	font: bold 17px/16px "Roboto Condensed", sans-serif;
+	color: #f72210;
+	text-transform: uppercase;
+	text-decoration: none;
+  }
+  
+  .head-story .image {
+	max-width: 100%;
+	vertical-align: middle;
+	height: auto;
+	overflow: hidden;
+  }
+  
+  .head-story .header-2 {
+	font-size: 22px;
+	line-height: 24px;
+	margin-bottom: 10px;
+  }
+  
+  .head-story article a {
+	font-family: "Roboto Condensed", sans-serif;
+	margin-bottom: 10px;
+	position: relative;
+	color: black;
+  }
+  
+  .more-story-content .more-story-article {
+	position: relative;
+	border-top: 1px solid #ddd;
+	clear: both;
+	display: block;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	overflow: hidden;
+  
+	/* Overflow:hidden avoids floating image
+	  to everflow the parent container article */
+  }
+  
+  .more-story-article .image {
+	float: left;
+	width: 135px;
+	height: 90px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+  }
+  
+  .more-story-article .image a {
+	display: block;
+	width: 100%;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+	padding: 66.6667% 0 0 0;
+  }
+  
+  .more-story-article img {
+	display: block;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  }
+  
+  .more-story-article h4 {
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 20px;
+	margin-bottom: 10px;
+	position: relative;
+	color: black;
+  }
+  
+  .culture-story-content {
+	background-color: var(--newsborderdust);
+	margin-bottom: 20px;
+  }
+  
+  .culture-story-content .head-story .title {
+	color: rgba(3, 3, 3, 0.5);
+	padding: 10px;
+	font: bold 16px/16px "Roboto Condensed", sans-serif;
+	text-transform: uppercase;
+  }
+  
+  .culture-story-content .title a {
+	color: inherit;
+	text-decoration: none;
+  }
+  
+  .culture-story-content .culture-items {
+	margin-left: -10px;
+	margin-right: -10px;
+  }
+  
+  .culture-story-content .culture-item {
+	padding-left: 10px;
+	padding-right: 10px;
+  }
+  
+  .culture-story-content .culture-item .info {
+	padding: 15px 10px 20px;
+  }
+  
+  .culture-item .info .title-item {
+	color: var(--newsdark);
+	font: 20px/22px "Lora", serif;
+	margin-bottom: 10px;
+  }
+  
+  .culture-item .info .title-item a {
+	color: inherit;
+	text-decoration: none;
+  }
+  
+  .culture-item .info .summary-item {
+	font: 15px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+	color: rgba(39, 39, 39, 0.5);
+	margin-bottom: 10px;
+  }
+  
+  .culture-item .info .tags-item {
+	font: 300 13px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+	color: var(--newsdark);
+  }
+  
+  .culture-item .tags-item a {
+	display: inline-block;
+	background-color: #c2d4d7;
+	padding-left: 6px;
+	padding-right: 6px;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	color: inherit;
+	text-decoration: none;
+	width: auto;
+  }
+  
+  .header-3 {
+	font-size: 20px;
+	line-height: 20px;
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: bold;
+	margin-bottom: 10px;
+	position: relative;
+	color: black;
+  }
+  
+  .featured-stories article ul.related {
+	font: bold 16px/20px "Roboto Condensed", sans-serif;
+	color: black;
+	margin-top: 16px;
+	list-style: none outside none;
+  }
+  
+  .featured-stories .related li {
+	border-top: 1px solid #d9d9d9;
+	padding: 10px 0;
+  }
+  
 
   /*
 ===================================================
