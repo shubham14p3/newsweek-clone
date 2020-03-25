@@ -1889,6 +1889,53 @@
 	
 	  </div>
 	
+	  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+  crossorigin="anonymous"></script>
+<!-- Small jQuery to manage small screen navbar toggling - Carlos Anriquez -->
+<script>
+  $(document).ready(function () {
+	$('.header-burger').click(function () {
+	  if ($('.header-nav').css('visibility') == 'hidden') {
+		$('.header-nav').css('visibility', 'visible');
+		$('.header-burger').addClass('animate-burger');
+		$('.header-burger span').css('display', 'none');
+	  }
+	  else {
+		$('.header-nav').css('visibility', ''); /* Note */
+		$('.header-burger').removeClass('animate-burger');
+		$('.header-burger span').css('display', ''); /* Note */
+	  }
+	})
+
+	/* Note to self: this method can be used to cancel any style modification you have previously performed.
+	source: https://api.jquery.com/css/ */
+
+
+	/* -------- Click on search mignifier - Version 2 -------- */
+
+	$('.header-nav-search-inline input').on('click', function () {
+	  $('.header-nav-search-form').toggleClass('active').focus();
+	  $('.header-nav-search-inline').toggleClass('cursor').focus();
+	  $('.header-nav .header-nav-search-inline input').toggleClass('fullRow').focus();
+	  $('.flex-col form').siblings().toggleClass('nonActive').focus();
+	});
+
+
+
+	/* ---------------------------------------------- */
+
+  });
+
+</script>
 	
 	</body>
 	
