@@ -1553,7 +1553,53 @@
 	padding-left: 0;
 	padding-right: 0;
   }
-			
+/*
+===================================================
+                Newsweek's Slide-shows
+===================================================
+*/
+
+.slide-feature .box-title {
+	border-bottom: 1px solid #d9d9d9;
+	padding-bottom: 8px;
+  }
+  
+  .slide-feature .featured-stories .article-wrap {
+	margin-bottom: 20px;
+  }
+  
+  .slide-feature .featured-stories article {
+	padding-bottom: 40px;
+  }
+  
+  .slide-feature .slide-count a {
+	margin-bottom: 0;
+  }
+  
+  .slide-feature .count-link {
+	width: 70px;
+	height: 52px;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 58px;
+	text-indent: 5px;
+	text-align: center;
+	background: url(/assets/img/icon-slideshows-nw.png) 0 0/contain no-repeat;
+	color: #e9212e;
+	z-index: 2;
+  }
+  
+  @media screen and (min-width: 768px) {
+	.slide-feature .featured-stories h4 {
+	  font-size: 22px;
+	  line-height: 22px;
+	}
+  }
+			  
 
   /*
 ===================================================
