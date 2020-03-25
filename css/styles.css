@@ -876,7 +876,90 @@
 	text-transform: uppercase;
 	margin-top: 4px;
   }
+/* latest news Subsection */
+
+#latest-news .head-story {
+	font: bold 17px/21px "Roboto Condensed", sans-serif;
+	color: black;
+	margin-bottom: 30px;
+  }
   
+  #latest-news .head-story a {
+	font: inherit;
+	color: inherit;
+  }
+  
+  #latest-news .head-story .image {
+	width: 135px;
+	min-width: 135px;
+	margin-right: 15px;
+  }
+  
+  /* sponsored items sub-category */
+  
+  .special-item-sub .head-story {
+	padding-bottom: 30px;
+  }
+  
+  /* ---------singup box  ------------- */
+  
+  .signup-news {
+	max-width: 300px;
+	margin: 0 auto 30px;
+	border: 1px solid #e5e5e5;
+	background-color: #f4f5f6;
+	padding: 20px;
+  }
+  
+  .box-title {
+	font: bold 19px/19px "Roboto Condensed", sans-serif;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+  }
+  
+  .box-title .icon-news {
+	display: block;
+	width: 29px;
+	height: 28px;
+	background: url(../svg/singup-logo.svg) center/contain no-repeat #f72210;
+	margin-right: 10px;
+  }
+  
+  .gray-button {
+	display: inline-block;
+	padding: 10px 10px 10px 12px;
+	color: white;
+	font: bold 18px/18px "Roboto Condensed", sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	background-color: #666;
+  }
+  
+  .red-button {
+	display: inline-block;
+	padding: 10px 10px 10px 12px;
+	color: white;
+	font: bold 18px/18px "Roboto Condensed", sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	background-color: var(--newsred);
+  }
+  
+  .gray-button::after,
+  .red-button::after {
+	content: "";
+	display: inline-block;
+	width: 8px;
+	height: 14px;
+	margin-left: 10px;
+	background: url(../svg/icon-arrow-right.svg) center/contain no-repeat;
+  }
+  
+  .small-link {
+	color: #333;
+	font: bold 15px/15px "Roboto Condensed", sans-serif;
+  }
+	
 
   /*
 ===================================================
