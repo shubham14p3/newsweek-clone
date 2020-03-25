@@ -554,3 +554,20 @@ footer {
 	align-items: flex-end;
   }
   
+  footer .top-brand p {
+	font-size: 12px;
+	line-height: 12px;
+	text-transform: uppercase;
+	color: #666;
+	margin-bottom: 12px;
+  }
+  
+  footer svg {
+	display: block;
+	width: 236px;
+	height: 36px;
+	margin-right: 15px;
+	margin-bottom: 12px;
+	fill: #f72210;
+  }
+  
