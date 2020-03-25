@@ -1284,7 +1284,257 @@
 	  margin-top: 30px;
 	}
   }
-		
+/*
+===================================================
+                Newsweek Conversations
+===================================================
+*/
+.newsweek-videos {
+	margin-bottom: 30px;
+	display: block;
+  }
+  
+  .video-options .container {
+	max-width: 767px;
+  }
+  
+  .play-icon {
+	font-size: 60px;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	background-color: #fd0100;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+  }
+  
+  .video-options .play-icon-sm {
+	font-size: 40px;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	background-color: #fd0100;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+  }
+  
+  .play-icon::before,
+  .play-icon-sm::before {
+	content: "\f452";
+  }
+  
+  .blk-bgnd {
+	background-color: black;
+	color: white;
+  }
+  
+  .video-options ul {
+	list-style: none outside none;
+  }
+  
+  .video-options ul li {
+	border-top: 1px solid #ddd;
+  }
+  
+  .newsweek-videos .key-video div.details {
+	font-size: 16px;
+	line-height: 24px;
+	color: #c6c6c6;
+	margin-bottom: 10px;
+  }
+  
+  .newsweek-videos h3 {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 26px;
+	line-height: 34px;
+	font-weight: bold;
+	margin-bottom: 10px;
+  }
+  
+  .newsweek-videos h4 {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	margin-bottom: 4px;
+	font-weight: bold;
+  }
+  
+  .newsweek-videos time {
+	font-size: 14px;
+	line-height: 14px;
+	color: #777;
+  }
+  
+  .key-video {
+	width: 100%;
+  }
+  
+  .video-options {
+	width: 100%;
+  }
+  
+  .key-video .image {
+	position: relative;
+	padding: 0;
+	width: auto;
+  }
+  
+  .key-video .image img {
+	max-width: 486px;
+	max-height: 315px;
+	width: 100%;
+	height: auto;
+  }
+  
+  .newsweek-videos .info {
+	padding: 20px;
+  }
+  
+  .newsweek-videos a {
+	color: inherit;
+	height: auto;
+	width: auto;
+  }
+  
+  .video-options .image {
+	position: relative;
+	vertical-align: middle;
+	width: 173px;
+	height: auto;
+	padding: 0;
+  }
+  
+  .video-options .image img {
+	max-width: 173px;
+	max-height: 104px;
+	width: 100%;
+	height: auto;
+  }
+  
+  @media screen and (min-width: 768px) {
+	.key-video {
+	  width: 66.66%;
+	}
+  
+	.key-video .image a {
+	  background-image: url(../img/newsweek-conversations-1.jpg);
+	}
+  
+	.video-options {
+	  width: 33.33%;
+	}
+  
+	.key-video .image {
+	  width: 50%;
+	  order: 2;
+	}
+  
+	.key-video .info {
+	  width: 50%;
+	  order: 1;
+	  padding: 40px 25px 30px 25px;
+	}
+  
+	.video-options .info {
+	  padding: 10px 20px;
+	}
+  
+	.video-options .image {
+	  height: inherit;
+	}
+  
+	.video-options h4 {
+	  font-size: 18px;
+	  line-height: 20px;
+	  margin-bottom: 13px;
+	}
+  
+	.newsweek-videos time {
+	  font-size: 18px;
+	  line-height: 18px;
+	}
+  
+	.video-options ul {
+	  border-left: 1px solid #ddd;
+	}
+  
+	ul li .vid-opt-wrap {
+	  position: relative;
+	  height: inherit;
+	  align-items: stretch !important;
+	}
+  
+	.newsweek-videos h3 {
+	  font-size: 28px;
+	  line-height: 32px;
+	  margin-bottom: 4px;
+	}
+  
+	.newsweek-videos .key-video summary {
+	  font-size: 15px;
+	  line-height: 20px;
+	  margin-bottom: 6px;
+	}
+  
+	.newsweek-videos .image img {
+	  display: none;
+	}
+  
+	.newsweek-videos .image a {
+	  display: block;
+	  height: 100%;
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  background-position: 50% 50%;
+	}
+  
+	#option-1 {
+	  background-image: url(../img/newsweek-conversations-2.jpg);
+	}
+  
+	#option-2 {
+	  background-image: url(../img/newsweek-conversations-3.jpg);
+	}
+  
+	#option-3 {
+	  background-image: url(../img/newsweek-conversations-4.jpg);
+	}
+  
+	.video-options .play-icon-sm {
+	  font-size: 30px;
+	  width: 34px;
+	  height: 34px;
+	  line-height: 34px;
+	}
+  
+	.newsweek-videos .play-icon {
+	  font-size: 45px;
+	  width: 53px;
+	  height: 53px;
+	  line-height: 53px;
+	}
+  
+	.newsweek-videos .box-title {
+	  border-bottom: 0;
+	}
+  }
+  
+  @media screen and (min-width: 992px) {
+	.key-video .image {
+	  width: 58.3333%;
+	  order: 2;
+	}
+  
+	.key-video .info {
+	  width: 41.6666%;
+	  order: 1;
+	}
+  }
+		  
 
   /*
 ===================================================
