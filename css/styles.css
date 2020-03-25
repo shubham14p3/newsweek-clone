@@ -437,6 +437,10 @@ footer .the-footer-links a {
     margin-bottom: 0;
   }
 
+  .header-nav-search-inline i{
+    text-align: right;
+  }
+
   .header-nav-search-inline input {
     vertical-align: middle;
     font-size: 16px;
@@ -535,6 +539,10 @@ footer .the-footer-links a {
     flex-direction: row-reverse;
     justify-content: flex-end;
     align-items: center;
+  }
+
+  .form-control {
+      padding-left: 2.375rem;
   }
 
   .header-nav .header-nav-search-inline input {
