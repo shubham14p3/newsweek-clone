@@ -763,6 +763,119 @@
 	border-top: 1px solid #d9d9d9;
 	padding: 10px 0;
   }
+  /* ----------- Special Items subsection */
+
+.special-item-right .article-wrap {
+	margin-bottom: 0;
+  }
+  
+  .special-item-right .category a {
+	color: var(--newsblues);
+  }
+  
+  .special-item-right .article-summary {
+	border: 1px solid #e6e6e6;
+	background-color: white;
+	background-position: top right;
+	padding: 20px;
+  }
+  
+  .special-item-right .image > a > span {
+	display: block;
+	padding-bottom: 66.75%;
+  }
+  
+  #special-1 {
+	background: url(../img/sponsored-item1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+  
+  #special-2 {
+	background: url(../img/sponsored-item2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+  
+  #special-3 {
+	background: url(../img/sponsored-item3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 55% 55%;
+  }
+  
+  #special-4 {
+	background: url(../img/sponsored-item4.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+  
+  #special-sub-1 {
+	background: url(../img/sponsored-item-sub1.png);
+	background-size: cover;
+  }
+  
+  #special-sub-2 {
+	background: url(../img/sponsored-item-sub2.jpg);
+	background-size: cover;
+  }
+  
+  #special-sub-3 {
+	background: url(../img/sponsored-item-sub3.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+  }
+  
+  #special-sub-4 {
+	background: url(../img/sponsored-item-sub4.png);
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+  }
+  
+  #news-opinion .head-story {
+	font: bold 17px/21px "Roboto Condensed", sans-serif;
+	color: black;
+	margin-bottom: 30px;
+  }
+  
+  .head-story ul li {
+	border-top: 1px solid #ddd;
+	padding-top: 10px;
+	padding-bottom: 10px;
+  }
+  
+  .head-story ul li:first-child {
+	border-top: 0;
+	padding-top: 0;
+  }
+  
+  #news-opinion .head-story .headshot {
+	width: 63px;
+	height: 63px;
+	min-width: 63px;
+	min-height: 63px;
+	margin-right: 15px;
+	position: relative;
+  }
+  
+  #news-opinion .head-story img {
+	width: 100%;
+  }
+  
+  #news-opinion .head-story a {
+	font: inherit;
+	color: inherit;
+  }
+  
+  #news-opinion .head-story .byAuthor {
+	font-size: 14px;
+	line-height: 21px;
+	color: #555;
+	text-transform: uppercase;
+	margin-top: 4px;
+  }
   
 
   /*
