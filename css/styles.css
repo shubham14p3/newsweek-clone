@@ -1,0 +1,123 @@
+/*
+===================================================
+                Header
+===================================================
+*/
+
+.page-header .container {
+	max-width: 1310px;
+	padding: 0;
+	position: relative;
+  }
+  
+  .page-header .header-top {
+	height: 95px;
+	background-color: var(--newsred);
+	padding: 20px 10px 15px;
+  }
+  
+  .page-header .header-middle {
+	background-color: var(--newsred);
+	position: relative;
+	padding: 15px;
+  }
+  
+  .header-middle .logo svg {
+	fill: white;
+	display: block;
+	width: 132px;
+	height: 20px;
+  }
+  
+  .header-signin {
+	padding-right: 0;
+  
+	/* overwriting boots col std padding=15px */
+  }
+  
+  .header-signin .signin1 {
+	color: white;
+	position: relative;
+	font: bold 14px/14px "Roboto Condensed", sans-serif;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 6px 3px 8px 3px;
+  }
+  
+  .header-signin .subscribe1 {
+	font: bold 14px/14px "Roboto Condensed", sans-serif;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 6px 3px;
+	background-color: white;
+	color: var(--newsred);
+	margin-bottom: 2px;
+  }
+  
+  .header-middle .header-burger > span {
+	margin-top: 4px;
+	margin-bottom: 4px;
+  }
+  
+  .header-middle .header-burger {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 0;
+  }
+  
+  .header-middle .header-burger > span,
+  .header-middle .header-burger::before,
+  .header-middle .header-burger::after {
+	content: "";
+	display: block;
+	width: 24px;
+	height: 4px;
+	background-color: var(--newspink);
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  .page-header .header-nav {
+	display: relative;
+	background-color: white;
+	border-bottom-color: var(--newsborderwhite);
+	visibility: hidden;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	z-index: 1;
+  }
+  
+  .header-nav .header-nav-search-form form {
+	display: block;
+  }
+  
+  .header-nav ul.news-navbar {
+	font-size: 21px;
+	line-height: 24px;
+	font-weight: bold;
+	font-family: "Roboto Condensed", sans-serif;
+	color: black;
+	list-style-type: none;
+  }
+  
+  .header-nav ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .header-nav .news-navbar a {
+	display: block;
+	text-decoration: none;
+	color: black;
+  }
+  
