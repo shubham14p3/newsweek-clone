@@ -57,7 +57,63 @@
 	--featureGray: rgba(3, 3, 3, 0.4);
   }
   
- 
+/*
+===================================================
+                Page Styles
+===================================================
+*/
+
+* {
+	-webkit-font-smoothing: antialiased;
+  }
+  
+  body {
+	min-width: 320px;
+	background-color: #f4f5f6;
+	color: #333;
+	font-size: 13px;
+	line-height: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  html,
+  body,
+  div,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  ol,
+  ul,
+  li,
+  form,
+  legend,
+  label,
+  table,
+  header,
+  footer,
+  nav,
+  section,
+  figure {
+	margin: 0;
+	padding: 0;
+  }
+  
+  .genericon {
+	font-size: 26px;
+	vertical-align: top;
+	text-align: center;
+	display: block;
+	font-family: "Genericons", Helvetica, sans-serif;
+	cursor: pointer;
+  }
+   
 /*
 ===================================================
                 Header
