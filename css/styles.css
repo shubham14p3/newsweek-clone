@@ -537,4 +537,20 @@
 	/* this will disable the outline when input text is on focus */
   }
   
+
+  /*
+===================================================
+                the-footer
+===================================================
+*/
+
+footer {
+	border-top: 2px solid #f4f5f6;
+	background-color: white;
+	padding: 30px 15px;
+  }
+  
+  footer .top-brand {
+	align-items: flex-end;
+  }
   
