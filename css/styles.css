@@ -37,7 +37,28 @@
 	font-style: normal;
   }
   
-  /*
+/*
+===================================================
+                Variables
+===================================================
+*/
+
+:root {
+	/* header */
+	--newsred: #f72210;
+	--newspink: #fb9a94;
+	--newsborderwhite: #f4f5f6;
+	--newsborderdust: #f4f5f7;
+	--newswhitesmoke: #d9d9d9;
+	--newsdark: #272727;
+	--newsblues: #3581f4;
+  
+	/* Main */
+	--featureGray: rgba(3, 3, 3, 0.4);
+  }
+  
+ 
+/*
 ===================================================
                 Header
 ===================================================
