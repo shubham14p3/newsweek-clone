@@ -959,7 +959,128 @@
 	color: #333;
 	font: bold 15px/15px "Roboto Condensed", sans-serif;
   }
-	
+  @media screen and (max-width: 991px) and (min-width: 668px) {
+	.col3 .special-item-right {
+	  max-width: 330px;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+  }
+  
+  @media screen and (max-width: 767px) and (min-width: 481px) {
+	.more-story-content .more-story-article .image {
+	  width: 258px;
+	  height: 172px;
+	}
+  
+	#latest-news .head-story .image {
+	  width: 258px;
+	  min-width: 258px;
+	}
+  }
+  
+  @media screen and (min-width: 768px) {
+	body {
+	  font-size: 15px;
+	  line-height: 20px;
+	}
+  
+	.header-3 {
+	  font-size: 24px;
+	  line-height: 24px;
+	}
+  
+	/*     .container-fluid {
+		  padding-left: 30px;
+		  padding-right: 30px;
+	  } */
+  
+	.wrap-col-top .col1 {
+	  width: 41%;
+	}
+  
+	.wrap-col-top .col2 {
+	  width: 59%;
+	}
+  
+	.wrap-col-top .col3 {
+	  width: 29%;
+	}
+  
+	.wrap-col-top .col4 {
+	  width: 71%;
+	}
+  
+	.culture-story-content .culture-item {
+	  width: 50%;
+	}
+  
+	.head-story .image span {
+	  display: block;
+	  position: relative;
+	  padding-bottom: 76.5%;
+	  overflow: hidden;
+	}
+  
+	.top-story-content .head-story img {
+	  transform: translate(-50%, -50%);
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  height: 100%;
+	  max-width: inherit;
+	  width: auto;
+	}
+  }
+  
+  @media screen and (max-width: 991px) and (min-width: 768px) {
+	/* 2 columns (col4) */
+	.wrap-col-top .col1 {
+	  width: 45%;
+	}
+  
+	.wrap-col-top .col2 {
+	  width: 55%;
+	}
+  
+	.wrap-col-top .col3 {
+	  width: 100%;
+	}
+  
+	.wrap-col-top .col4 {
+	  width: 100%;
+	}
+  }
+  
+  @media screen and (max-width: 767px) {
+	/* Focused on column wrap -col4- and subcolumn order */
+  
+	.main #column-4 #col4-wrap {
+	  flex-wrap: wrap;
+	}
+  
+	.wrap-col-top .d-flex .col1 {
+	  width: 100%;
+	  order: 2;
+	}
+  
+	.wrap-col-top .d-flex .col2 {
+	  width: 100%;
+	  order: 1;
+	}
+  
+	/* changing markup order of col2 and col1 at this media */
+  
+	.wrap-col-top .col2 .order-3 {
+	  order: 2;
+	}
+  
+	.wrap-col-top .col2 .order-2 {
+	  order: 3;
+	}
+  }
+  
+	  
 
   /*
 ===================================================
