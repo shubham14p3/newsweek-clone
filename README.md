@@ -1,6 +1,6 @@
 # Project: Newsweek Clone
 
-> This project requests students to build a replica of the news site Newsweek.com using the Bootstrap framework.
+This project requests students to build a replica of the news site Newsweek.com using the Bootstrap framework.
 
 [Original Page](http://newsweek.com/)
 
@@ -33,6 +33,12 @@ The overall page contains the following sections:
 
 - Github: [@shubham14p3](https://github.com/shubham14p3)
 - Linkedin: [shubham14p3](https://linkedin.com/shubham14p3)
+
+## Future Updates
+
+- Will be re-degiging all the styling css to custom.
+- Bootstrap needs some more working.
+- More Logics will be added.
 
 ## 🤝 Contributing
 
